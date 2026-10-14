@@ -1,9 +1,11 @@
+import os
 import pandas as pd
 import itertools
 import os
 
 # Base directory for all data
-data_file_path = 'rps_strategy_analysis/data'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
+data_file_path = os.path.join(base_file_path, 'data')
 processed_data_file_path = f"{data_file_path}/processed"
 
 # Load processed match group performance data
