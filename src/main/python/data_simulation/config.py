@@ -2,7 +2,8 @@
 import os
 
 # Base directory for all data
-data_file_path = 'rps_strategy_analysis/data'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
+data_file_path = os.path.join(base_file_path, 'data')
 
 # Directory specifically for raw data
 raw_data_file_path = f"{data_file_path}/raw"
