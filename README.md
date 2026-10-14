@@ -32,7 +32,8 @@ Nine strategies were tested in round-robin Rock-Paper-Scissors tournaments: Rand
 ## Requirements
 
 - Python 3.x
-- `pandas`, `numpy`, `matplotlib`, `scipy`, `tqdm`
+- Install dependencies: `pip install -r requirements.txt`
+- `pandas`, `numpy`, `matplotlib`, `scipy`, `statsmodels`, `Pillow`, `tqdm`, `seaborn`
 
 ## Usage
 
