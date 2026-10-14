@@ -151,7 +151,7 @@ def simulate_all_matches():
                     "%WDif": win_rate_diff
                 })
 
-    output_dir = 'WinRPS\data'
+    output_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'data'))
     output_file_name = 'strategy_simulation_results.csv'
     
     # Ensure output directory exists
