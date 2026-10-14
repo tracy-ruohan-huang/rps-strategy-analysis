@@ -1,12 +1,14 @@
+import os
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Base directory for all data
-data_file_path = 'rps_strategy_analysis/data'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
+data_file_path = os.path.join(base_file_path, 'data')
 processed_data_file_path = f"{data_file_path}/processed"
-results_file_path = 'rps_strategy_analysis/results'
+results_file_path = os.path.join(base_file_path, 'results')
 
 # Load WRD summary data
 wrd_summary_data = pd.read_csv(f"{processed_data_file_path}/match_group_perf_wrd_summary.csv")
