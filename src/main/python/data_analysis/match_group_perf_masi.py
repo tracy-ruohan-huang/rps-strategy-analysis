@@ -14,7 +14,7 @@ cusum_results_file_path = f"{results_file_path}/cusum"
 os.makedirs(cusum_results_file_path, exist_ok=True)
 
 # Load data
-wrd_data = pd.read_csv(f"{cusum_results_file_path}/match_group_perf_cusum.csv")
+wrd_data = pd.read_csv(f"{cusum_results_file_path}/match_group_perf_wrd_cusum.csv")
 
 # Phase ranges
 phases = {
