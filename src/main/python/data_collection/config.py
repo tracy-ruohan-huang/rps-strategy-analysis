@@ -1,8 +1,9 @@
 # config.py
 import os
 
-data_file_path = 'rps_strategy_analysis/data'
-result_file_path = 'rps_strategy_analysis/results'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
+data_file_path = os.path.join(base_file_path, 'data')
+result_file_path = os.path.join(base_file_path, 'results')
 
 config = {
     "strategy": {
