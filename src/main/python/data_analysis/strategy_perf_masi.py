@@ -14,7 +14,17 @@ cusum_results_file_path = f"{results_file_path}/cusum"
 os.makedirs(cusum_results_file_path, exist_ok=True)
 
 # Load data
-data = pd.read_csv(f"{cusum_results_file_path}/strategy_perf_cusum.csv")
+# strategy_perf_cusum.csv is not in the repo; derive needed columns from strategy_perf.csv
+data = pd.read_csv(f"{processed_data_file_path}/strategy_perf.csv")
+data = data.sort_values(['strategy_abbr', 'rpg'])
+# sma_owr: simple moving average of overall win rate per strategy
+data['sma_owr'] = data.groupby('strategy_abbr')['owr']\
+    .transform(lambda x: x.rolling(window=20, min_periods=1).mean())
+# moving_avg_cusum: moving average of the CUSUM of owr per strategy
+data['cusum_owr'] = data.groupby('strategy_abbr')['owr']\
+    .transform(lambda x: (x - x.mean()).cumsum())
+data['moving_avg_cusum'] = data.groupby('strategy_abbr')['cusum_owr']\
+    .transform(lambda x: x.rolling(window=20, min_periods=1).mean())
 
 # Phase ranges
 phases = {
