@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -5,7 +6,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import os
 
 # Base directory for all data
-base_file_path = 'rps_strategy_analysis'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
 data_file_path = f"{base_file_path}/data"
 processed_data_file_path = f"{data_file_path}/processed"
 results_file_path = f"{base_file_path}/results"
