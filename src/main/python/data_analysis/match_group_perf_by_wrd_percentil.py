@@ -8,7 +8,7 @@ processed_data_file_path = f"{data_file_path}/processed"
 results_file_path = os.path.join(base_file_path, 'results')
 
 # Load the dataset
-data = pd.read_csv(f"{processed_data_file_path}/match_group_perf_summary_wrd.csv")
+data = pd.read_csv(f"{processed_data_file_path}/match_group_perf_wrd_summary.csv")
 
 # Calculate percentiles and mean, std for `wrd_mean` and `wrd_std`
 wrd_mean_25 = data['wrd_mean'].quantile(0.25)
