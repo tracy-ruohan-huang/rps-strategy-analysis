@@ -5,7 +5,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 from PIL import Image
 from tqdm import tqdm
 
-data_dir = 'WinRPS/data'
+data_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'data'))
 csv_file_name = 'strategy_simulation_results.csv'
 pdf_file_name = 'strategy_cusum_mv_plots.pdf'
 tiff_file_name = 'strategy_cusum_mv_plots.tiff'
