@@ -202,7 +202,7 @@ def simulate_all_multiplayer_matches(rounds, num_players):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Directory path
-    directory = 'WinRPS/data'
+    directory = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'data'))
 
     # Create the directory if it doesn't exist
     os.makedirs(directory, exist_ok=True)
