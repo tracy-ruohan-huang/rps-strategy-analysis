@@ -16,7 +16,7 @@ cusum_results_file_path = f"{results_file_path}/cusum"
 os.makedirs(cusum_results_file_path, exist_ok=True)
 
 # Load data
-wrd_data = pd.read_csv(f"{processed_data_file_path}/match_group_perf_wrd_noabs.csv")
+wrd_data = pd.read_csv(f"{processed_data_file_path}/match_group_perf_wrd.csv")
 
 # Dynamically get all unique match groups (strategy pairs)
 all_groups = wrd_data[['strategy1_abbr', 'strategy2_abbr']].drop_duplicates()
