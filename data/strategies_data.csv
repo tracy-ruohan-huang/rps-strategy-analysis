@@ -1,0 +1,10 @@
+ID,Name,Abbr.,Func.
+0,Random,Rndm,random_strategy
+1,Constant,Const,constant_strategy
+2,Sequential,Seq,SequentialStrategy
+3,Mirror,Mirr,MirrorStrategy
+4,Exclusion,Excl,exclusion_strategy
+5,Reaction,React,ReactionStrategy
+6,Reverse Mirror,RevMirr,ReverseMirrorStrategy
+7,Probability-Weighted,ProbWt,ProbabilityWeightedStrategy
+8,Multi-Round Observation,MRO,MultiRoundObservationStrategy

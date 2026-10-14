@@ -1,0 +1,109 @@
+strategy1_abbr,strategy2_abbr,stage,category
+Const,Excl,early,Highly Fluctuating
+Const,Excl,mid,No Significant Difference
+Const,Excl,late,No Significant Difference
+Const,MRO,early,Highly Fluctuating
+Const,MRO,mid,No Significant Difference
+Const,MRO,late,No Significant Difference
+Const,Mirr,early,Highly Fluctuating
+Const,Mirr,mid,No Significant Difference
+Const,Mirr,late,No Significant Difference
+Const,ProbWt,early,Highly Fluctuating
+Const,ProbWt,mid,No Significant Difference
+Const,ProbWt,late,No Significant Difference
+Const,React,early,Highly Fluctuating
+Const,React,mid,No Significant Difference
+Const,React,late,No Significant Difference
+Const,RevMirr,early,Highly Fluctuating
+Const,RevMirr,mid,Significantly Superior
+Const,RevMirr,late,Significantly Superior
+Const,Seq,early,Highly Fluctuating
+Const,Seq,mid,No Significant Difference
+Const,Seq,late,No Significant Difference
+Excl,MRO,early,Highly Fluctuating
+Excl,MRO,mid,No Significant Difference
+Excl,MRO,late,No Significant Difference
+Excl,ProbWt,early,Highly Fluctuating
+Excl,ProbWt,mid,No Significant Difference
+Excl,ProbWt,late,No Significant Difference
+Excl,React,early,Highly Fluctuating
+Excl,React,mid,No Significant Difference
+Excl,React,late,No Significant Difference
+Excl,RevMirr,early,Highly Fluctuating
+Excl,RevMirr,mid,No Significant Difference
+Excl,RevMirr,late,No Significant Difference
+Mirr,Excl,early,Significantly Superior
+Mirr,Excl,mid,No Significant Difference
+Mirr,Excl,late,No Significant Difference
+Mirr,MRO,early,Highly Fluctuating
+Mirr,MRO,mid,No Significant Difference
+Mirr,MRO,late,No Significant Difference
+Mirr,ProbWt,early,Highly Fluctuating
+Mirr,ProbWt,mid,No Significant Difference
+Mirr,ProbWt,late,No Significant Difference
+Mirr,React,early,Highly Fluctuating
+Mirr,React,mid,No Significant Difference
+Mirr,React,late,No Significant Difference
+Mirr,RevMirr,early,Highly Fluctuating
+Mirr,RevMirr,mid,No Significant Difference
+Mirr,RevMirr,late,No Significant Difference
+ProbWt,MRO,early,Highly Fluctuating
+ProbWt,MRO,mid,No Significant Difference
+ProbWt,MRO,late,No Significant Difference
+React,MRO,early,Highly Fluctuating
+React,MRO,mid,Significantly Superior
+React,MRO,late,Significantly Superior
+React,ProbWt,early,Highly Fluctuating
+React,ProbWt,mid,No Significant Difference
+React,ProbWt,late,No Significant Difference
+React,RevMirr,early,No Significant Difference
+React,RevMirr,mid,No Significant Difference
+React,RevMirr,late,No Significant Difference
+RevMirr,MRO,early,Highly Fluctuating
+RevMirr,MRO,mid,No Significant Difference
+RevMirr,MRO,late,No Significant Difference
+RevMirr,ProbWt,early,Highly Fluctuating
+RevMirr,ProbWt,mid,No Significant Difference
+RevMirr,ProbWt,late,No Significant Difference
+Rndm,Const,early,Highly Fluctuating
+Rndm,Const,mid,No Significant Difference
+Rndm,Const,late,No Significant Difference
+Rndm,Excl,early,Highly Fluctuating
+Rndm,Excl,mid,No Significant Difference
+Rndm,Excl,late,No Significant Difference
+Rndm,MRO,early,Highly Fluctuating
+Rndm,MRO,mid,No Significant Difference
+Rndm,MRO,late,No Significant Difference
+Rndm,Mirr,early,Highly Fluctuating
+Rndm,Mirr,mid,No Significant Difference
+Rndm,Mirr,late,No Significant Difference
+Rndm,ProbWt,early,Highly Fluctuating
+Rndm,ProbWt,mid,No Significant Difference
+Rndm,ProbWt,late,No Significant Difference
+Rndm,React,early,Highly Fluctuating
+Rndm,React,mid,No Significant Difference
+Rndm,React,late,No Significant Difference
+Rndm,RevMirr,early,Highly Fluctuating
+Rndm,RevMirr,mid,No Significant Difference
+Rndm,RevMirr,late,No Significant Difference
+Rndm,Seq,early,Highly Fluctuating
+Rndm,Seq,mid,No Significant Difference
+Rndm,Seq,late,No Significant Difference
+Seq,Excl,early,Highly Fluctuating
+Seq,Excl,mid,No Significant Difference
+Seq,Excl,late,No Significant Difference
+Seq,MRO,early,Highly Fluctuating
+Seq,MRO,mid,No Significant Difference
+Seq,MRO,late,No Significant Difference
+Seq,Mirr,early,Highly Fluctuating
+Seq,Mirr,mid,Significantly Superior
+Seq,Mirr,late,Significantly Superior
+Seq,ProbWt,early,Highly Fluctuating
+Seq,ProbWt,mid,No Significant Difference
+Seq,ProbWt,late,No Significant Difference
+Seq,React,early,Highly Fluctuating
+Seq,React,mid,No Significant Difference
+Seq,React,late,No Significant Difference
+Seq,RevMirr,early,Highly Fluctuating
+Seq,RevMirr,mid,No Significant Difference
+Seq,RevMirr,late,No Significant Difference

@@ -1,0 +1,6 @@
+Match Group,Early Performance,Mid-term Performance,Late Performance
+"(RevMirr, MRO)",MRO significantly superior,MRO significantly superior,MRO significantly superior
+"(Mirr, React)",React expands its advantage,Mirr gradually superior,React slightly superior
+"(React, MRO)",React significantly superior,React significantly superior,React significantly superior
+"(Excl, MRO)",MRO slightly superior,MRO gradually superior,MRO gradually superior
+"(Mirr, ProbWt)",ProbWt slightly superior,Mirr slightly superior,ProbWt slightly superior

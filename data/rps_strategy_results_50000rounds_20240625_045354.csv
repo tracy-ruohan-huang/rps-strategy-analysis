@@ -1,0 +1,82 @@
+P1 Strat,P2 Strat,P1 Wins,P2 Wins,Draws,P1 Win %,P2 Win %,Draw %
+Random Strategy,Random Strategy,16797,16597,16606,33.59%,33.19%,33.21%
+Random Strategy,Constant Strategy,16559,16760,16681,33.12%,33.52%,33.36%
+Random Strategy,Sequential Strategy,16739,16503,16758,33.48%,33.01%,33.52%
+Random Strategy,Mirror Strategy,16479,16854,16667,32.96%,33.71%,33.33%
+Random Strategy,Exclusion Strategy,16618,16793,16589,33.24%,33.59%,33.18%
+Random Strategy,Reaction Strategy,16516,16826,16658,33.03%,33.65%,33.32%
+Random Strategy,Reverse Mirror Strategy,16614,16759,16627,33.23%,33.52%,33.25%
+Random Strategy,Probability-Weighted Strategy,16840,16691,16469,33.68%,33.38%,32.94%
+Random Strategy,Multi-Round Observation Strategy,16642,16617,16741,33.28%,33.23%,33.48%
+Constant Strategy,Random Strategy,16703,16673,16624,33.41%,33.35%,33.25%
+Constant Strategy,Constant Strategy,0,0,50000,0.00%,0.00%,100.00%
+Constant Strategy,Sequential Strategy,16666,16667,16667,33.33%,33.33%,33.33%
+Constant Strategy,Mirror Strategy,1,0,49999,0.00%,0.00%,100.00%
+Constant Strategy,Exclusion Strategy,24990,25010,0,49.98%,50.02%,0.00%
+Constant Strategy,Reaction Strategy,1,49999,0,0.00%,100.00%,0.00%
+Constant Strategy,Reverse Mirror Strategy,49999,1,0,100.00%,0.00%,0.00%
+Constant Strategy,Probability-Weighted Strategy,50000,0,0,100.00%,0.00%,0.00%
+Constant Strategy,Multi-Round Observation Strategy,1,49997,2,0.00%,99.99%,0.00%
+Sequential Strategy,Random Strategy,16861,16602,16537,33.72%,33.20%,33.07%
+Sequential Strategy,Constant Strategy,16667,16666,16667,33.33%,33.33%,33.33%
+Sequential Strategy,Sequential Strategy,0,0,50000,0.00%,0.00%,100.00%
+Sequential Strategy,Mirror Strategy,50000,0,0,100.00%,0.00%,0.00%
+Sequential Strategy,Exclusion Strategy,0,25155,24845,0.00%,50.31%,49.69%
+Sequential Strategy,Reaction Strategy,1,0,49999,0.00%,0.00%,100.00%
+Sequential Strategy,Reverse Mirror Strategy,1,49999,0,0.00%,100.00%,0.00%
+Sequential Strategy,Probability-Weighted Strategy,16528,16706,16766,33.06%,33.41%,33.53%
+Sequential Strategy,Multi-Round Observation Strategy,16805,16698,16497,33.61%,33.40%,32.99%
+Mirror Strategy,Random Strategy,16649,16525,16826,33.30%,33.05%,33.65%
+Mirror Strategy,Constant Strategy,0,1,49999,0.00%,0.00%,100.00%
+Mirror Strategy,Sequential Strategy,0,50000,0,0.00%,100.00%,0.00%
+Mirror Strategy,Mirror Strategy,0,0,50000,0.00%,0.00%,100.00%
+Mirror Strategy,Exclusion Strategy,16794,16714,16492,33.59%,33.43%,32.98%
+Mirror Strategy,Reaction Strategy,0,25000,25000,0.00%,50.00%,50.00%
+Mirror Strategy,Reverse Mirror Strategy,25000,0,25000,50.00%,0.00%,50.00%
+Mirror Strategy,Probability-Weighted Strategy,16641,16822,16537,33.28%,33.64%,33.07%
+Mirror Strategy,Multi-Round Observation Strategy,9,12497,37494,0.02%,24.99%,74.99%
+Exclusion Strategy,Random Strategy,16681,16637,16682,33.36%,33.27%,33.36%
+Exclusion Strategy,Constant Strategy,24945,25055,0,49.89%,50.11%,0.00%
+Exclusion Strategy,Sequential Strategy,24741,1,25258,49.48%,0.00%,50.52%
+Exclusion Strategy,Mirror Strategy,16865,16535,16600,33.73%,33.07%,33.20%
+Exclusion Strategy,Exclusion Strategy,16529,16553,16918,33.06%,33.11%,33.84%
+Exclusion Strategy,Reaction Strategy,16610,16813,16577,33.22%,33.63%,33.15%
+Exclusion Strategy,Reverse Mirror Strategy,16473,16721,16806,32.95%,33.44%,33.61%
+Exclusion Strategy,Probability-Weighted Strategy,16603,16656,16741,33.21%,33.31%,33.48%
+Exclusion Strategy,Multi-Round Observation Strategy,20916,22844,6240,41.83%,45.69%,12.48%
+Reaction Strategy,Random Strategy,16671,16748,16581,33.34%,33.50%,33.16%
+Reaction Strategy,Constant Strategy,49999,0,1,100.00%,0.00%,0.00%
+Reaction Strategy,Sequential Strategy,1,0,49999,0.00%,0.00%,100.00%
+Reaction Strategy,Mirror Strategy,0,50000,0,0.00%,100.00%,0.00%
+Reaction Strategy,Exclusion Strategy,16638,16636,16726,33.28%,33.27%,33.45%
+Reaction Strategy,Reaction Strategy,0,0,50000,0.00%,0.00%,100.00%
+Reaction Strategy,Reverse Mirror Strategy,0,25000,25000,0.00%,50.00%,50.00%
+Reaction Strategy,Probability-Weighted Strategy,50000,0,0,100.00%,0.00%,0.00%
+Reaction Strategy,Multi-Round Observation Strategy,37495,12498,7,74.99%,25.00%,0.01%
+Reverse Mirror Strategy,Random Strategy,16652,16610,16738,33.30%,33.22%,33.48%
+Reverse Mirror Strategy,Constant Strategy,0,50000,0,0.00%,100.00%,0.00%
+Reverse Mirror Strategy,Sequential Strategy,49999,0,1,100.00%,0.00%,0.00%
+Reverse Mirror Strategy,Mirror Strategy,50000,0,0,100.00%,0.00%,0.00%
+Reverse Mirror Strategy,Exclusion Strategy,16653,16737,16610,33.31%,33.47%,33.22%
+Reverse Mirror Strategy,Reaction Strategy,25000,0,25000,50.00%,0.00%,50.00%
+Reverse Mirror Strategy,Reverse Mirror Strategy,25000,25000,0,50.00%,50.00%,0.00%
+Reverse Mirror Strategy,Probability-Weighted Strategy,16660,16726,16614,33.32%,33.45%,33.23%
+Reverse Mirror Strategy,Multi-Round Observation Strategy,25000,0,25000,50.00%,0.00%,50.00%
+Probability-Weighted Strategy,Random Strategy,16770,16587,16643,33.54%,33.17%,33.29%
+Probability-Weighted Strategy,Constant Strategy,0,50000,0,0.00%,100.00%,0.00%
+Probability-Weighted Strategy,Sequential Strategy,16906,16507,16587,33.81%,33.01%,33.17%
+Probability-Weighted Strategy,Mirror Strategy,16660,16794,16546,33.32%,33.59%,33.09%
+Probability-Weighted Strategy,Exclusion Strategy,16551,16692,16757,33.10%,33.38%,33.51%
+Probability-Weighted Strategy,Reaction Strategy,11273,27453,11274,22.55%,54.91%,22.55%
+Probability-Weighted Strategy,Reverse Mirror Strategy,16642,16727,16631,33.28%,33.45%,33.26%
+Probability-Weighted Strategy,Probability-Weighted Strategy,16610,16740,16650,33.22%,33.48%,33.30%
+Probability-Weighted Strategy,Multi-Round Observation Strategy,2689,43290,4021,5.38%,86.58%,8.04%
+Multi-Round Observation Strategy,Random Strategy,16666,16763,16571,33.33%,33.53%,33.14%
+Multi-Round Observation Strategy,Constant Strategy,49996,2,2,99.99%,0.00%,0.00%
+Multi-Round Observation Strategy,Sequential Strategy,16769,16815,16416,33.54%,33.63%,32.83%
+Multi-Round Observation Strategy,Mirror Strategy,12500,2,37498,25.00%,0.00%,75.00%
+Multi-Round Observation Strategy,Exclusion Strategy,22644,20974,6382,45.29%,41.95%,12.76%
+Multi-Round Observation Strategy,Reaction Strategy,12500,37494,6,25.00%,74.99%,0.01%
+Multi-Round Observation Strategy,Reverse Mirror Strategy,49997,1,2,99.99%,0.00%,0.00%
+Multi-Round Observation Strategy,Probability-Weighted Strategy,49974,19,7,99.95%,0.04%,0.01%
+Multi-Round Observation Strategy,Multi-Round Observation Strategy,25000,24998,2,50.00%,50.00%,0.00%

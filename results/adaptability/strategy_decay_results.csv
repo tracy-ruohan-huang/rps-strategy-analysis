@@ -1,0 +1,10 @@
+strategy_abbr,slope_dw,adaptability_index
+Rndm,0.2414,0.1
+Const,0.1944,0.03
+Seq,0.2081,0.06
+Mirr,0.1332,0.5
+Excl,0.276,0.07
+React,0.2787,0.66
+RevMirr,0.2547,0.51
+ProbWt,0.1967,0.2
+MRO,0.3567,0.71

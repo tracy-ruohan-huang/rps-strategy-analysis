@@ -1,0 +1,10 @@
+strategy_abbr,masi_win_rate,masi_cusum
+Rndm,0.40,1.61
+Const,0.10,0.51
+Seq,0.40,0.99
+Mirr,1.23,9.24
+Excl,0.28,1.54
+React,1.44,17.02
+RevMirr,1.32,8.44
+ProbWt,0.48,4.34
+MRO,1.60,16.81

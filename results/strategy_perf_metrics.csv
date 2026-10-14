@@ -1,0 +1,10 @@
+strategy_abbr,strategy_type,owr_mean,masi_cusum,adaptability_index,masi_win_rate,slope_dw
+Rndm,fixed,33.31,1.61,0.1,0.4,0.2414
+Const,fixed,27.13,0.51,0.03,0.1,0.1944
+Seq,fixed,29.29,0.99,0.06,0.4,0.2081
+Mirr,reactive,18.22,9.24,0.5,1.23,0.1332
+Excl,adaptive,38.21,1.54,0.07,0.28,0.276
+React,reactive,40.22,17.02,0.66,1.44,0.2787
+RevMirr,reactive,36.4,8.44,0.51,1.32,0.2547
+ProbWt,adaptive,26.61,4.34,0.2,0.48,0.1967
+MRO,adaptive,46.98,16.81,0.71,1.6,0.3567

@@ -1,0 +1,10 @@
+strategy_abbr,adaptability_index,decay_rate
+Rndm,0.1,-0.0079
+Const,0.03,-0.0078
+Seq,0.06,-0.0077
+Mirr,0.5,-0.008
+Excl,0.07,-0.0078
+React,0.66,-0.0074
+RevMirr,0.51,-0.0076
+ProbWt,0.2,-0.008
+MRO,0.71,-0.0083

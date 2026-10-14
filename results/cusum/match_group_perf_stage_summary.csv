@@ -1,0 +1,10 @@
+strategy_abbr,Slightly Superior,Gradually Superior,Significantly Superior,No Significant Difference,Highly Fluctuating
+Rndm,0,0,0,16,8
+Const,0,0,2,14,8
+Seq,0,0,2,14,8
+Mirr,0,0,3,14,7
+Excl,0,0,1,16,7
+React,0,0,2,15,7
+RevMirr,0,0,2,15,7
+ProbWt,0,0,0,16,8
+MRO,0,0,2,14,8

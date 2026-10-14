@@ -1,0 +1,2 @@
+After dropping self-pairing (e.g. mg_id = 11, 22...) records, there are 1276 rows with pwr = 0 
+in match_group_performance 
