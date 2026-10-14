@@ -124,10 +124,11 @@ def main():
         print(f"Total time elapsed for {num_rounds} rounds: {total_elapsed_time:.2f} seconds.")
 
     # Ensure the directory exists
-    os.makedirs('WinRPS/data', exist_ok=True)
+    data_dir = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'data'))
+    os.makedirs(data_dir, exist_ok=True)
 
     # Write results to a CSV file
-    with open('WinRPS/data/rps_2players_results.csv', 'w', newline='') as csvfile:
+    with open(os.path.join(data_dir, 'rps_2players_results.csv'), 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['Rounds', 'Strategy 1', 'Strategy 2', 'Score 1', 'Score 2'])
         writer.writerows(results)
@@ -135,7 +136,7 @@ def main():
     total_end_time = time.time()
     total_time_elapsed = total_end_time - total_start_time
     print(f"Total time elapsed for all simulations: {total_time_elapsed:.2f} seconds.")
-    print("All simulations completed and results saved to 'WinRPS/data/rps_results.csv'.")
+    print(f"All simulations completed and results saved to '{os.path.join(data_dir, 'rps_2players_results.csv')}'.")
 
 if __name__ == "__main__":
     main()
