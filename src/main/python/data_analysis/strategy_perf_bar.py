@@ -1,11 +1,13 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
 # Base directory for all data
-data_file_path = 'rps_strategy_analysis/data'
+base_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..'))
+data_file_path = os.path.join(base_file_path, 'data')
 processed_data_file_path = f"{data_file_path}/processed"
-results_file_path = 'rps_strategy_analysis/results'
+results_file_path = os.path.join(base_file_path, 'results')
 
 # Load the strategy performance summary data
 strategy_perf_summary = pd.read_csv(f"{processed_data_file_path}/strategy_perf_summary.csv")
