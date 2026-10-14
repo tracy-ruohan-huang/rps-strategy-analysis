@@ -14,7 +14,13 @@ cusum_results_file_path = f"{results_file_path}/cusum"
 os.makedirs(cusum_results_file_path, exist_ok=True)
 
 # Load data
-data = pd.read_csv(f"{cusum_results_file_path}/match_group_perf_cusum.csv")
+data = pd.read_csv(f"{cusum_results_file_path}/match_group_perf_wrd_cusum.csv")
+
+# Derive sma_wrd (simple moving average of wrd) per strategy pair;
+# the original match_group_perf_cusum.csv is not in the repo.
+data = data.sort_values(['strategy1_abbr', 'strategy2_abbr', 'rpg'])
+data['sma_wrd'] = data.groupby(['strategy1_abbr', 'strategy2_abbr'])['wrd']\
+    .transform(lambda x: x.rolling(window=20, min_periods=1).mean())
 
 # Initialize structures to store results
 stage_performance = []
